@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="VR_h">150dp</dimen>
+    <dimen name="VR_w">300dp</dimen>
+
+    <dimen name="btn_VR">30dp</dimen>
+
+    <dimen name="btn_back">16sp</dimen>
+    <dimen name="sizeback_w">150dp</dimen>
+    <dimen name="sizeback_h">45dp</dimen>
+</resources>

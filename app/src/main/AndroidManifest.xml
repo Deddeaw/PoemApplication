@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.poemapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_loadscene">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_Menu" />
+        <activity android:name=".Activity_History" />
+        <activity android:name=".Activity_Poem" />
+        <activity android:name=".Activity_Paraphrase" />
+        <activity android:name=".Activity_TypeBoat" />
+        <activity android:name=".Activity_ListView_BoatType1" />
+        <activity android:name=".Activity_ListView1" />
+        <activity android:name=".Activity_Boat1" />
+        <activity android:name=".Activity_ListView_BoatType2" />
+        <activity android:name=".Activity_ListView2" />
+        <activity android:name=".Activity_Boat2" />
+        <activity android:name=".Activity_MenuVr"></activity>
+    </application>
+
+</manifest>
