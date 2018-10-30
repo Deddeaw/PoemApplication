@@ -1,5 +1,6 @@
 package com.example.user.poemapplication;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,5 +27,10 @@ public class Activity_TypeBoat extends AppCompatActivity {
     public void clickToListViewBoatType2(View view) {
         Intent gotolistviewboattype2 = new Intent(Activity_TypeBoat.this, Activity_ListView_BoatType2.class);
         startActivity(gotolistviewboattype2);
+    }
+    // ปุ่มไปหน้าค้นหา Search
+    public void clickToSearch(View view) {
+        Intent gotosearch = new Intent(Activity_TypeBoat.this, MainActivity.class);
+        startActivity(gotosearch);
     }
 }

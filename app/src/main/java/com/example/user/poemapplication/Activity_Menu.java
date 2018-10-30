@@ -32,4 +32,16 @@ public class Activity_Menu extends AppCompatActivity {
         Intent gotovr = new Intent(Activity_Menu.this, Activity_MenuVr.class);
         startActivity(gotovr);
     }
+
+    //ปุ่มไปหน้า Video
+    public void gotovdo(View view) {
+        Intent gotovdo = new Intent(Activity_Menu.this, Activity_Video.class);
+        startActivity(gotovdo);
+    }
+    // ไปหน้า profile
+    public void clicktoProfile(View view) {
+        Intent gotoprofile = new Intent(Activity_Menu.this, Activity_Profile.class);
+        startActivity(gotoprofile);
+    }
+
 }

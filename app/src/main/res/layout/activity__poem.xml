@@ -17,7 +17,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/buttonback"
-        android:onClick="clickToLis"
+        android:onClick="gotovdo"
         android:text="ฟังบทประพันธ์"
         android:textColor="@android:color/background_light"
         android:textSize="16sp"
@@ -93,7 +93,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imgV1"
                 android:layout_width="match_parent"
                 android:layout_height="155dp"
                 app:srcCompat="@drawable/detailpoem1" />

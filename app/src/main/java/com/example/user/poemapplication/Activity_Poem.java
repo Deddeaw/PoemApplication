@@ -24,9 +24,10 @@ public class Activity_Poem extends AppCompatActivity {
         startActivity(gotoprp);
     }
     // ปุ่มไปหน้าฟังบทประพันธ์
-    public void clickToLis(View view) {
-        Intent gotolispoem = new Intent(Intent.ACTION_VIEW);
-        gotolispoem.setData(Uri.parse("https://www.youtube.com/watch?v=5lnIHlw7Bwk&t=9s"));
-        startActivity(gotolispoem);
+
+    public void gotovdo(View view) {
+        Intent gotovdo = new Intent(Activity_Poem.this, Activity_Video.class);
+        startActivity(gotovdo);
     }
+
 }

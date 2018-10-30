@@ -22,12 +22,30 @@
         <activity android:name=".Activity_Paraphrase" />
         <activity android:name=".Activity_TypeBoat" />
         <activity android:name=".Activity_ListView_BoatType1" />
-        <activity android:name=".Activity_ListView1" />
-        <activity android:name=".Activity_Boat1" />
         <activity android:name=".Activity_ListView_BoatType2" />
-        <activity android:name=".Activity_ListView2" />
-        <activity android:name=".Activity_Boat2" />
-        <activity android:name=".Activity_MenuVr"></activity>
+        <activity android:name=".Activity_MenuVr" />
+        <activity android:name=".Activity_Video" />
+        <activity android:name=".Boat1Type1" />
+        <activity android:name=".Boat2Type1" />
+        <activity android:name=".Boat3Type1" />
+        <activity android:name=".Boat1Type2" />
+        <activity android:name=".Boat2Type2" />
+        <activity android:name=".Boat3Type2" />
+        <activity android:name=".Activity_Profile" />
+        <activity android:name=".Activity_Boat4_Type1" />
+        <activity android:name=".Activity_Boat5_type1" />
+        <activity android:name=".Activity_Boat4_Type2" />
+        <activity android:name=".Activity_Boat5_Type2" />
+        <activity android:name=".Activity_Boat6_Type2" />
+        <activity android:name=".Activity_Boat7_Type2" />
+        <activity android:name=".Activity_Boat8_Type2" />
+        <activity android:name=".Activity_Boat9_Type2" />
+        <activity android:name=".Activity_Boat10_Type2" />
+        <activity android:name=".Activity_Boat11_Type2" />
+        <activity android:name=".Activity_Boat12_Type2" />
+        <activity android:name=".Activity_Boat13_Type2" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".NewActivity"></activity>
     </application>
 
 </manifest>

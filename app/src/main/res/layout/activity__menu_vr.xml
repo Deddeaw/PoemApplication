@@ -45,10 +45,9 @@
     <ScrollView
         android:id="@+id/scrollView8"
         android:layout_width="match_parent"
-        android:layout_height="380dp"
+        android:layout_height="342dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,7 +83,7 @@
 
             <Button
                 android:id="@+id/button14"
-                android:layout_width="@dimen/VR_w"
+                android:layout_width="match_parent"
                 android:layout_height="@dimen/VR_h"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="5dp"

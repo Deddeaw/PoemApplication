@@ -38,10 +38,156 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ListView
-                android:id="@+id/listView1"
-                android:layout_width="360dp"
-                android:layout_height="500dp" />
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="1.เรือพระที่นั่งนารายณ์ทรงสุบรรณ"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="@dimen/VR_w"
+                android:layout_height="@dimen/VR_h"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/boat1type2"
+                android:onClick="clickBoat1" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="2. เรือพระที่นั่งอเนกชาติภุชงค์"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/VR_h"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/boat2type2"
+                android:onClick="clickBoat2" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="3. เรือสุรวายุภักษ์"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/VR_h"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/boat3type2"
+                android:onClick="clickBoat3" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="4. เรือกระบี่ปราบเมืองมาร"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/VR_h"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/boat4type2"
+                android:onClick="clickBoat4" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="5. เรือเสือคำรณสินธุ์ "
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/VR_h"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/boat5type2"
+                android:onClick="clickBoat5" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
         </LinearLayout>
     </ScrollView>
 
