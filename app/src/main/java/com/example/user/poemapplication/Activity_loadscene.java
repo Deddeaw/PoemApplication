@@ -9,7 +9,7 @@ import android.view.View;
 
 public class Activity_loadscene extends AppCompatActivity {
     // เวลาในการโหลดซีน
-    private  static  int Time_Splash = 1000;
+    private  static  int Time_Splash = 3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
